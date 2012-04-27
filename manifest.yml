@@ -2,7 +2,7 @@
 applications:
   target:
     name: pet-clinic
-    mem: 256M
+    mem: 512M
     services:
       mysql-spring:
         type: mysql
