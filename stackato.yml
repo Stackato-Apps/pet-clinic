@@ -1,0 +1,9 @@
+name: pet-clinic
+mem: 256M
+framework:
+  type: buildpack
+env:
+  BUILDPACK_URL: https://github.com/heroku/heroku-buildpack-java.git
+services:
+  mysql-spring:
+    type: mysql

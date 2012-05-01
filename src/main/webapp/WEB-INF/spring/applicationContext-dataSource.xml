@@ -17,6 +17,10 @@
 	<!-- (in this case, JDBC-related settings for the dataSource definition below) -->
 	<context:property-placeholder location="classpath:jdbc.properties"/>
 
+	<bean class="java.net.URI" id="dbUrl">
+		<constructor-arg value="#{systemEnvironment['DATABASE_URL']}"/>
+	</bean>
+
 	<!-- DataSource configuration for Apache Commons DBCP. -->
 	<bean class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close" id="dataSource">
 		<property name="url" value="${jdbc.url}" />
