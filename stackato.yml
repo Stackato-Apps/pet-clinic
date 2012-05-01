@@ -1,5 +1,5 @@
 name: pet-clinic
-mem: 256M
+mem: 512M
 framework:
   type: buildpack
 env:
