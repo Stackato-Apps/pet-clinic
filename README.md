@@ -1,7 +1,9 @@
 Pet clinic Sample
 =============
 
-This is a Java sample using the Spring framework and a MySQL service; [Source](https://src.springframework.org/svn/spring-samples/petclinic/trunk/)
+This is a Java sample using the Spring framework and a MySQL service. 
+
+[http://static.springsource.org/docs/petclinic.html](https://src.springframework.org/svn/spring-samples/petclinic/trunk/)
 
 This application uses a java buildpack.
 
