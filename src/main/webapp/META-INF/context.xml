@@ -9,6 +9,5 @@
 	<!-- Tomcat 5.5.x (higher then 5.5.20) -->
 	<!--
 	<Loader loaderClass="org.springframework.instrument.classloading.tomcat.TomcatInstrumentableClassLoader" useSystemClassLoaderAsParent="false"/>
-	-->
 	
 </Context>
