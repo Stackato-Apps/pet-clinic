@@ -3,7 +3,7 @@ mem: 512M
 framework:
   type: buildpack
 env:
-  BUILDPACK_URL: https://github.com/heroku/heroku-buildpack-java.git
+  BUILDPACK_URL: git://github.com/heroku/heroku-buildpack-java.git
 services:
   mysql-spring:
     type: mysql
