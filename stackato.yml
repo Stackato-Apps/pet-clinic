@@ -1,8 +1,9 @@
 name: pet-clinic
 mem: 512M
 framework:
-  type: buildpack
+  type: spring
 min_version:
   client: 1.4.3
 services:
   ${name}-db: mysql
+app-dir: target
