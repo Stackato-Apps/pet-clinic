@@ -22,12 +22,18 @@ As it is a Heroku java buildpack, the execution is declared in the Procfile file
 Deploying the Application to Stackato
 -------------------------
 
-To deploy to stackato:
+To deploy to Stackato 3, first build the application:
+
+    mvn clean package -Dmaven.test.skip=true
+
+Then, push it directly to Stackato:
 
     stackato push -n
 
-The application will download dependencies. Then it will be built and run.
+The application will download dependencies. Then it will run.
 You can view the application at the 'Application Deployed URL'.
+
+To deploy to Stackato 2, you do not need to first build the application. It will be built during staging.
 
 
 Running the Application locally
