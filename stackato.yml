@@ -1,7 +1,0 @@
-name: pet-clinic
-mem: 512M
-min_version:
-  client: 1.4.3
-services:
-  ${name}-db: mysql
-app-dir: target/org.springframework.samples.petclinic-1.0.0-SNAPSHOT
