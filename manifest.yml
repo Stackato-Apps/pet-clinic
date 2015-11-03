@@ -1,6 +1,6 @@
 applications:
 - name: pet-clinic
-  mem: 512M
+  memory: 512M
   path: target/org.springframework.samples.petclinic-1.0.0-SNAPSHOT
   services:
     ${name}-db:
