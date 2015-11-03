@@ -5,10 +5,10 @@ This is a Java sample using the Spring framework and a MySQL service.
 
 [http://static.springsource.org/docs/petclinic.html](http://static.springsource.org/docs/petclinic.html)
 
-Deploying the Application to Stackato
--------------------------
+Deploying the Application to HPE Helion Stackato
+------------------------------------------------
 
-To deploy to stackato:
+To deploy to HPE Helion Stackato:
 
     mvn clean package -Dmaven.test.skip=true
     stackato push -n
