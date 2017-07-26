@@ -3,8 +3,4 @@ applications:
   memory: 512M
   path: target/org.springframework.samples.petclinic-1.0.0-SNAPSHOT
   services:
-    ${name}-db:
-      type: mysql
-  stackato:
-    min_version:
-      client: 1.4.3
+  - mydb
